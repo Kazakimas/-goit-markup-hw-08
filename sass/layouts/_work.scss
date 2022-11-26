@@ -1,5 +1,8 @@
 .work {
     background: var(--accent-text-color);
+    @media screen and (max-width:1199.9px) {
+            display: none;
+        }
 }
 
 .work__heading {
